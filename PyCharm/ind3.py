@@ -15,7 +15,7 @@ if __name__ == '__main__':
     print('Множество D = ', d)
 
     x = (a.difference(b)).intersection(c.union(d))
-    print('\nМножество X = ', x)
+    print('Множество X = ', x)
 
     y = (n_a.intersection(d)).union(c.difference(b))
     print('Множество Y = ', y)
